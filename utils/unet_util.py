@@ -6,7 +6,7 @@ from torch import nn
 from torch.nn import functional as F
 from einops.layers.torch import Rearrange
 
-from utils.ch14util import Attention, LayerNorm
+from utils.ch15util import Attention, LayerNorm
 
 
 def get_downsample_layer(in_dim, hidden_dim, is_last):
